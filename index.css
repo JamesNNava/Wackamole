@@ -1,0 +1,40 @@
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    color: green;
+}
+  
+#game {
+    display: grid;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+  }
+  
+  .hole {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    background-color: rgb(62, 133, 43);
+    margin: 25px;
+    overflow: hidden;
+  }
+  
+/*helps center image*/
+  .hole .mole{
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+
+  img {
+    border: 1px solid #000000;
+  border-radius: 4px;
+  width: 100px;
+  }
